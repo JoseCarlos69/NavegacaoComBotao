@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout"
+    tools:context=".TerceiraTela">
+
+    <!-- Botão vermelho -->
+    <Button
+        android:id="@+id/redButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Red"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Botão verde -->
+    <Button
+        android:id="@+id/greenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Green"
+        android:layout_below="@id/redButton"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Botão azul -->
+    <Button
+        android:id="@+id/blueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blue"
+        android:layout_below="@id/greenButton"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Botão cor aleatória -->
+    <Button
+        android:id="@+id/randomColorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Color"
+        android:layout_below="@id/blueButton"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Botão de navegação para a próxima tela -->
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:layout_below="@id/randomColorButton"
+        android:layout_marginStart="16dp"/>
+
+    <!-- Botão de navegação de volta para a tela anterior -->
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:layout_below="@id/nextButton"
+        android:layout_marginStart="16dp"/>
+</RelativeLayout>
+
